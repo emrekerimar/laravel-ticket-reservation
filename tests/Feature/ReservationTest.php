@@ -5,7 +5,6 @@ namespace Tests\Feature;
 use App\Models\Event;
 use App\Models\Reservation;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Support\Facades\Queue;
 use Illuminate\Support\Facades\DB;
 use Tests\TestCase;
 use PHPUnit\Framework\Attributes\Test;
