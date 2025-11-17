@@ -25,7 +25,7 @@ Detaylı şema için: [DrawSQL Ticket Reservation Diagram](https://drawsql.app/t
 ---
 
 ## 4. API Endpoint’leri
-- API endpointler **Postman exportu** olarak mailde ektedir.
+- Postman collection için: postman/Tickets.postman_collection.json dosyasını import edin.
 
 ---
 
