@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "30e4b40b-bbcd-4f94-83c8-55c433ea051c",
+		"name": "Tickets",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "26548149"
+	},
+	"item": [
+		{
+			"name": "List Event",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{BASE_URL}}/api/events"
+			},
+			"response": []
+		},
+		{
+			"name": "Single Event",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "{{BASE_URL}}/api/events/019a92dc-079f-70d6-9bb8-aa228b25511a"
+			},
+			"response": []
+		},
+		{
+			"name": "Purchase",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "{{BASE_URL}}/api/reservations/019a93a0-671b-701e-9fc8-273e353a7833/purchase"
+			},
+			"response": []
+		},
+		{
+			"name": "Reserve",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "{{BASE_URL}}/api/events/019a92dc-079f-70d6-9bb8-aa228b25511a/reserve"
+			},
+			"response": []
+		}
+	]
+}
