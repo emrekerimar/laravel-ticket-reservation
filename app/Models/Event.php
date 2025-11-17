@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Event extends Model
 {
     use SoftDeletes,HasUuids;
-    protected $fillable = ['name','total_tickets','available_tickets'];
+    protected $fillable = ['name','total_tickets','available_tickets','date'];
 
     protected $casts = [
         'date' => 'datetime',
